@@ -13,8 +13,7 @@ export default function Home() {
         <title>Guilherme Martins | Frontend Developer</title>
         <meta
           name="description"
-          content="I’m a Frontend Developer focused on building responsive frontend web and mobile
-            applications integrating back-end technologies."
+          content="My focus is on building beautiful Frontend Web and Mobile applications with great usability, scalability and performance to improve and facilitate people`s lives."
         />
         <link rel="icon" href="/public/assets/favicon.svg" />
       </Head>
