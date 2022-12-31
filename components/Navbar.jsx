@@ -122,7 +122,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400"
+                className="p-3 rounded-full shadow-lg cursor-pointer shadow-[#005687]"
               >
                 <AiOutlineClose />
               </div>
@@ -176,7 +176,7 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-[#005687] hover:scale-105">
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -185,14 +185,14 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-[#005687] hover:scale-105">
                     <FaGithub />
                   </div>
                 </a>
                 <Link href="/#contact">
                   <div
                     onClick={() => setNav(!nav)}
-                    className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105"
+                    className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-[#005687] hover:scale-105"
                   >
                     <AiOutlineMail />
                   </div>
@@ -200,7 +200,7 @@ const Navbar = () => {
                 <Link href="/resume">
                   <div
                     onClick={() => setNav(!nav)}
-                    className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105"
+                    className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-[#005687] hover:scale-105"
                   >
                     <BsFillPersonLinesFill />
                   </div>

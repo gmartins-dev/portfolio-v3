@@ -17,7 +17,7 @@ const Contact = () => {
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-[#005687] rounded-xl p-4">
             <div className="lg:p-4 h-full ">
               <div>
                 <Image
@@ -42,7 +42,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-[#005687] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -51,17 +51,17 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-[#005687] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>
                   </a>
 
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-[#005687] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                   <Link href="/resume">
                     <a>
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <div className="rounded-full shadow-lg shadow-[#005687] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-[#005687] rounded-xl lg:p-4">
             <div className="p-4">
               <form
                 action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
@@ -133,7 +133,7 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <a>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-[#005687] p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                 <HiOutlineChevronDoubleUp
                   className="text-[#2A7AE2]"
                   size={30}
