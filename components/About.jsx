@@ -27,8 +27,8 @@ const About = () => {
             performative way possible.
           </p>
           <p className="py-2 ">
-            I'm constantly looking to improve as a professional and learn on
-            demand in new challenges, so I'm always open to opportunities where
+            I`m constantly looking to improve as a professional and learn on
+            demand in new challenges, so I`m always open to opportunities where
             I need to learn to work with any software development tools that can
             help me solve problems in the best possible way.
           </p>
