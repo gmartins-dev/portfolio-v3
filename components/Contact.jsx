@@ -75,7 +75,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-[#005687] rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
+                action="https://getform.io/f/59908965-8ede-4d0b-b66f-564cebe654b3"
                 method="POST"
                 encType="multipart/form-data"
               >
@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className="flex flex-col">
                     <label className="py-2 text-sm uppercase">Name</label>
                     <input
-                      className="flex p-3 border-2 border-gray-300 rounded-lg"
+                      className="flex p-3 text-black border-2 border-gray-300 rounded-lg"
                       type="text"
                       name="name"
                     />
@@ -93,7 +93,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
-                      className="flex p-3 border-2 border-gray-300 rounded-lg"
+                      className="flex p-3 text-black border-2 border-gray-300 rounded-lg"
                       type="text"
                       name="phone"
                     />
@@ -102,7 +102,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="py-2 text-sm uppercase">Email</label>
                   <input
-                    className="flex p-3 border-2 border-gray-300 rounded-lg"
+                    className="flex p-3 text-black border-2 border-gray-300 rounded-lg"
                     type="email"
                     name="email"
                   />
@@ -110,7 +110,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="py-2 text-sm uppercase">Subject</label>
                   <input
-                    className="flex p-3 border-2 border-gray-300 rounded-lg"
+                    className="flex p-3 text-black border-2 border-gray-300 rounded-lg"
                     type="text"
                     name="subject"
                   />
@@ -118,7 +118,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="py-2 text-sm uppercase">Message</label>
                   <textarea
-                    className="p-3 border-2 border-gray-300 rounded-lg"
+                    className="p-3 text-black border-2 border-gray-300 rounded-lg"
                     rows="10"
                     name="message"
                   ></textarea>
