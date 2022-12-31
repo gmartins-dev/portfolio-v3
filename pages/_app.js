@@ -1,16 +1,14 @@
-import Navbar from '../components/Navbar';
-import '../styles/globals.css';
-import Construction from './construction';
 import React from "react"
+import Navbar from "../components/Navbar"
+import "../styles/globals.css"
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Construction />
-      {/* <Navbar/> */}
+      <Navbar />
       <Component {...pageProps} />
     </>
   )
 }
 
-export default MyApp;
+export default MyApp
