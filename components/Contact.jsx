@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { HiOutlineChevronDoubleUp } from "react-icons/hi"
-import ContactImg from "../public/assets/contact.jpg"
+import ContactImg from "../public/assets/profile-photo.jpeg"
 
 const Contact = () => {
   return (
@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className="pt-8 uppercase">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.linkedin.com/in/guilhermemm-dev/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/fireclint"
+                    href="https://github.com/guilhermemm-dev"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -55,17 +55,20 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className="rounded-full shadow-lg shadow-[#005687] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <Link href="/resume">
-                    <a>
-                      <div className="rounded-full shadow-lg shadow-[#005687] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
+                  <Link href="/#contact">
+                    <div className="rounded-full shadow-lg shadow-[#005687] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
                   </Link>
+                  <a
+                    href="https://bit.ly/gmmcv"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-[#005687] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

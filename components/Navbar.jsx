@@ -81,7 +81,9 @@ const Navbar = () => {
               <Link href="/#projects">Projects</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
+              <a href="https://bit.ly/gmmcv" target="_blank" rel="noreferrer">
+                Resume
+              </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
@@ -155,11 +157,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
+              <a href="https://bit.ly/gmmcv" target="_blank" rel="noreferrer">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
-              </Link>
+              </a>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
@@ -172,7 +174,7 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                  href="https://www.linkedin.com/in/guilhermemm-dev/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -181,7 +183,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/fireclint"
+                  href="https://github.com/guilhermemm-dev"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -197,14 +199,14 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/resume">
+                <a href="https://bit.ly/gmmcv" target="_blank" rel="noreferrer">
                   <div
                     onClick={() => setNav(!nav)}
                     className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-[#005687] hover:scale-105"
                   >
                     <BsFillPersonLinesFill />
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

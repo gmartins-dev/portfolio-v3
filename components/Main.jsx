@@ -22,7 +22,7 @@ const Main = () => {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
             <a
-              href="https://www.linkedin.com/in/clint-briley-50056920a/"
+              href="https://www.linkedin.com/in/guilhermemm-dev/"
               target="_blank"
               rel="noreferrer"
             >
@@ -31,7 +31,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://github.com/fireclint"
+              href="https://github.com/guilhermemm-dev"
               target="_blank"
               rel="noreferrer"
             >
@@ -44,11 +44,15 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="/resume">
+            <a
+              href="https://github.com/guilhermemm-dev"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-[#005687] hover:scale-110 text-[#2A7AE2]">
                 <BsFillPersonLinesFill />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

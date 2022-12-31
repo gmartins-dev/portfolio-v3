@@ -39,7 +39,7 @@ const crypto = () => {
             API.
           </p>
           <a
-            href="https://github.com/fireclint/crypto-react-firebase"
+            href="https://github.com/guilhermemm-dev/crypto-react-firebase"
             target="_blank"
             rel="noreferrer"
           >
