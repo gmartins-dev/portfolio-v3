@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className="py-2">A Frontend Developer</h1>
           <p className="py-4 text-[#d7e0e5] sm:max-w-[70%] m-auto">
-            My focus is on building beautiful Frontend Web and Mobile
+            My focus is on building beautiful Web and Mobile
             applications with great usability, scalability and performance to
             improve and facilitate people`s lives.
           </p>
