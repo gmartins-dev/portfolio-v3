@@ -2,7 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
-import netflixImg from "../public/assets/projects/netflix.jpg"
+// @ts-ignore
+import netflixImg from '../../../public/assets/projects/netflix.jpg'
 
 const netflix = () => {
   return (
@@ -18,7 +19,7 @@ const netflix = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Netflix App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h3>Next JS / React JS / Styled-Components / MaterialUi</h3>
         </div>
       </div>
 
@@ -47,19 +48,25 @@ const netflix = () => {
             <p className="pb-2 font-bold text-center">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> Next JS
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> React JS
               </p>
               <p className="flex items-center py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> Styled-Components
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> IMDB API
+                <RiRadioButtonFill className="pr-1" /> MaterialUi
+              </p>
+              <p className="flex items-center py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Axios
+              </p>
+              <p className="flex items-center py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Postman
               </p>
             </div>
           </div>

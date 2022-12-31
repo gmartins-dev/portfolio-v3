@@ -2,9 +2,10 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
-import cryptoImg from "../public/assets/projects/crypto.jpg"
+// @ts-ignore
+import netflixImg from '../../../public/assets/projects/netflix.jpg'
 
-const crypto = () => {
+const netflix = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +14,12 @@ const crypto = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={cryptoImg}
+          src={netflixImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Crypto App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">Netflix App</h2>
+          <h3>Next JS / React JS / Styled-Components / MaterialUi</h3>
         </div>
       </div>
 
@@ -27,16 +28,13 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router
-            DOM&quot; package. This application was built using the Coin Gecko
-            API.
+            I built this application in React JS and is hosted on GitHub pages.
+            This app features user authentication with firebase as well as the
+            firestore cloud storage database. This application is pulling movie
+            data from an the IMDB movie API and displaying different categories.
+            It features horizontal sliding and a featured selection. The
+            useContext hook is also being implemented for app-wide state
+            management.
           </p>
           <a href="#" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
@@ -45,27 +43,30 @@ const crypto = () => {
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-[#005687] rounded-xl py-4">
+        <div className="col-span-4 py-4 shadow-xl md:col-span-1 shadow-[#005687] rounded-xl">
           <div className="p-2">
             <p className="pb-2 font-bold text-center">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1 ">
+            <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> Next JS
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> React JS
               </p>
               <p className="flex items-center py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> Styled-Components
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Coin Gecko API
+                <RiRadioButtonFill className="pr-1" /> MaterialUi
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Routes
+                <RiRadioButtonFill className="pr-1" /> Axios
+              </p>
+              <p className="flex items-center py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Postman
               </p>
             </div>
           </div>
@@ -78,4 +79,4 @@ const crypto = () => {
   )
 }
 
-export default crypto
+export default netflix

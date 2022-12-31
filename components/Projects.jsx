@@ -15,30 +15,60 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
-            tech="React JS"
+            title="Qatar World Cup 2022"
+            backgroundImg={mobileFwcImg}
+            projectUrl="/projects/mobile/fwc"
+            tech="React Native"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
-            projectUrl="/crypto"
-            tech="React JS"
+            title="Qatar World Cup 2022"
+            backgroundImg={mobileBankImg}
+            projectUrl="/projects/mobile/bank"
+            tech="React Native"
           />
           <ProjectItem
-            title="Netflix App"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
-            tech="React JS"
+            title="Qatar World Cup 2022"
+            backgroundImg={mobileFlappyBirdImg}
+            projectUrl="/projects/mobile/flappybird"
+            tech="React Native"
           />
           <ProjectItem
-            title="Twitch UI"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
+            title="My Portfolio Website"
+            backgroundImg={webPortfolioImg}
+            projectUrl="/projects/web/portfolio"
             tech="Next JS"
+          />
+          <ProjectItem
+            title="Netflix Clone"
+            backgroundImg={webNetflixCloneImg}
+            projectUrl="/projects/web/netflix"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="ShareSpot"
+            backgroundImg={webShareSpotImg}
+            projectUrl="/projects/web/sharespot"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="iHungry"
+            backgroundImg={webIhungryImg}
+            projectUrl="/projects/web/ihungry"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="Superbid"
+            backgroundImg={webSuperbidImg}
+            projectUrl="/projects/web/superbid"
+            tech="React JS"
+          />
+          <ProjectItem
+            title="eTickets"
+            backgroundImg={webEticketsImg}
+            projectUrl="/projects/web/etickets"
+            tech="React JS"
           />
         </div>
       </div>

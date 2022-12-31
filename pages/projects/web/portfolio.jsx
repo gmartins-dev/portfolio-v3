@@ -2,9 +2,10 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
-import twitchImg from "../public/assets/projects/twitch.jpg"
+// @ts-ignore
+import netflixImg from '../../../public/assets/projects/netflix.jpg'
 
-const twitch = () => {
+const netflix = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +14,12 @@ const twitch = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={twitchImg}
+          src={netflixImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Twitch UI</h2>
-          <h3>Next JS / Tailwind / Next Auth</h3>
+          <h2 className="py-2">Netflix App</h2>
+          <h3>Next JS / React JS / Styled-Components / MaterialUi</h3>
         </div>
       </div>
 
@@ -27,42 +28,45 @@ const twitch = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This appplication was built using NEXT.JS and is styled with
-            Tailwind CSS. The application is hosted statically using Vercel.
-            This is a mobile responsive recreation of Twitch.tv and features
-            Next/Auth.js for authentication. Users may choose to be
-            authenticated with either a Github account or a Google account. A
-            few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context.
+            I built this application in React JS and is hosted on GitHub pages.
+            This app features user authentication with firebase as well as the
+            firestore cloud storage database. This application is pulling movie
+            data from an the IMDB movie API and displaying different categories.
+            It features horizontal sliding and a featured selection. The
+            useContext hook is also being implemented for app-wide state
+            management.
           </p>
           <a href="#" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a href="#" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-[#005687] rounded-xl py-4">
+        <div className="col-span-4 py-4 shadow-xl md:col-span-1 shadow-[#005687] rounded-xl">
           <div className="p-2">
             <p className="pb-2 font-bold text-center">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Next.JS
+                <RiRadioButtonFill className="pr-1" /> Next JS
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> React JS
               </p>
               <p className="flex items-center py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Next Auth
+                <RiRadioButtonFill className="pr-1" /> Styled-Components
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Github Auth
+                <RiRadioButtonFill className="pr-1" /> MaterialUi
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Google Auth
+                <RiRadioButtonFill className="pr-1" /> Axios
+              </p>
+              <p className="flex items-center py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Postman
               </p>
             </div>
           </div>
@@ -75,4 +79,4 @@ const twitch = () => {
   )
 }
 
-export default twitch
+export default netflix
