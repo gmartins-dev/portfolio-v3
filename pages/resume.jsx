@@ -6,10 +6,11 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Guilherme Martins | Resume</title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I’m a Frontend Developer focused on building responsive frontend web and mobile
+            applications integrating back-end technologies."
         />
         <link rel="icon" href="/public/assets/favicon.svg" />
       </Head>
