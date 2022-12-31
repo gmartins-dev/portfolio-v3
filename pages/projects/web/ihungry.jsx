@@ -3,9 +3,9 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import netflixImg from '../../../public/assets/projects/netflix.jpg'
+import iHungryImg from '../../../public/assets/projects/web-ihungry.jpg'
 
-const netflix = () => {
+const ihungry = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -14,12 +14,12 @@ const netflix = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={iHungryImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Netflix App</h2>
-          <h3>Next JS / React JS / Styled-Components / MaterialUi</h3>
+          <h2 className="py-2">iHungry</h2>
+          <h3>NextJs / ReactJs / TypeScript / JavaScript / TailwindCSS</h3>
         </div>
       </div>
 
@@ -28,18 +28,21 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            Food delivery web application, iFood style, UberEats etc... using
+            Next.Js, React, TypeScript and TailwindCSS.
           </p>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/guilhermemm-dev/on-food"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a
+            href="https://on-food-guilhermemm-dev.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
@@ -48,25 +51,19 @@ const netflix = () => {
             <p className="pb-2 font-bold text-center">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Next JS
+                <RiRadioButtonFill className="pr-1" /> NextJs
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> React JS
+                <RiRadioButtonFill className="pr-1" /> ReactJs
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> TypeScript
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Styled-Components
+                <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> MaterialUi
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Axios
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Postman
+                <RiRadioButtonFill className="pr-1" /> TailwindCSS
               </p>
             </div>
           </div>
@@ -79,4 +76,4 @@ const netflix = () => {
   )
 }
 
-export default netflix
+export default ihungry
