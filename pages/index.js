@@ -15,7 +15,7 @@ export default function Home() {
           name="description"
           content="My focus is on building beautiful Web and Mobile applications with great usability, scalability and performance to improve and facilitate people`s lives."
         />
-        <link rel="icon" href="/public/assets/favicon.svg" />
+        <link rel="icon" href="/assets/favicon.svg" />
       </Head>
 
       <Main />
