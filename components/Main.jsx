@@ -15,11 +15,11 @@ const Main = () => {
           <h1 className="py-4">
             Hi, I&#39;m <span className="text-[#167BF7]"> Guilherme</span>
           </h1>
-          <h1 className="py-2">A Frontend Developer</h1>
+          <h1 className="py-2">Frontend Developer</h1>
           <p className="py-4 text-[#d7e0e5] sm:max-w-[70%] m-auto">
-            My focus is on building beautiful Web and Mobile
-            applications with great usability, scalability and performance to
-            improve and facilitate people`s lives.
+            My focus is on building beautiful Web and Mobile applications with
+            great usability, scalability and performance to improve and
+            facilitate people`s lives.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
             <a

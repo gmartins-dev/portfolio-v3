@@ -111,7 +111,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#093366] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -119,7 +119,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between w-full">
               <Link href="/">
                 <a>
-                  <Image src={NavLogo} width="87" height="35" alt="/" />
+                  <Image src={NavLogo} width="300" height="250" alt="/" />
                 </a>
               </Link>
               <div
