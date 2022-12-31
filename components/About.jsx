@@ -1,47 +1,50 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import Image from "next/image"
+import Link from "next/link"
+import React from "react"
+import AboutImg from "../public/assets/about.jpg"
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+    <div id="about" className="flex items-center w-full p-2 py-16 md:h-screen">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p className="uppercase text-xl tracking-widest text-[#2A7AE2]">
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+          <h2 className="py-4">Who I Am</h2>
+          <p className="py-2 ">
+            My focus is on Frontend Development on Web and Mobile applications,
+            I have experience with projects using React, React Native, Next.js,
+            Angular, Vue, JavaScript, TypeScript, HTML, CSS, Styled-Components,
+            TailwindCSS, Bootstrap, Chakra UI, Material UI and others.
           </p>
-          <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+          <p className="py-2 ">
+            What most attracts me about working with frontend development is the
+            possibility of combining both the creative part to think of
+            solutions that directly affect the way people will use websites,
+            programs, and mobile applications together with the logical part of
+            solving problems so that this is done in the most optimized and
+            performative way possible.
           </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+          <p className="py-2 ">
+            I'm constantly looking to improve as a professional and learn on
+            demand in new challenges, so I'm always open to opportunities where
+            I need to learn to work with any software development tools that can
+            help me solve problems in the best possible way.
+          </p>
+
+          <Link href="/#projects">
+            <p className="py-2 underline cursor-pointer">
               Check out some of my latest projects.
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+        <div className="w-full h-auto m-auto shadow-xl shadow-[#005687] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
