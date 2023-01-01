@@ -34,7 +34,7 @@ const netflix = () => {
             MateriaUI and styled-components.
           </p>
           <div className="mt-2 mb-3">
-            <img
+            <Image
               className="rounded "
               alt="Netflix Demo"
               height="600"
