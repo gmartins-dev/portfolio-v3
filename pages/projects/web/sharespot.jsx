@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import coverShareSpot from "/assets/projects/cover-sharespot.png"
+import coverShareSpot from "../../../public/assets/projects/cover-sharespot.png"
 
 const sharespot = () => {
   return (

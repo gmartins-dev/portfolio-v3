@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import coverEtickets from "/assets/projects/cover-etickets.png"
+import coverEtickets from "../../../public/assets/projects/cover-etickets.png"
 
 const etickets = () => {
   return (
@@ -37,7 +37,7 @@ const etickets = () => {
             alt="Etickets Demo"
             height="600"
             width="800"
-            src="/assets/projects/cover-etickets.png"
+            src="../../../public/assets/projects/cover-etickets.png"
           />
           <a
             href="https://github.com/guilhermemm-dev/react-mblabs"

@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import coverFlappyBird from "../../../public/assets/projects/demo-flappybird.png"
+import coverFlappyBird from "../../../public/assets/projects/cover-flappybird.png"
 
 const flappybird = () => {
   return (

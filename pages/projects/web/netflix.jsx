@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import webNetflixCloneImg from "../../../public/assets/projects/web-netflix.jpg"
+import coverNetflix from "../../../public/assets/projects/web-netflix.jpg"
 
 const netflix = () => {
   return (
@@ -14,7 +14,7 @@ const netflix = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={webNetflixCloneImg}
+          src={coverNetflix}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">

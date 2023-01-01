@@ -2,7 +2,15 @@
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import webNetflixCloneImg from "../public/assets/projects/web-netflix.jpg"
+import coverBank from "../public/assets/projects/cover-bank.png"
+import coverEtickets from "../public/assets/projects/cover-etickets.png"
+import coverFlappyBird from "../public/assets/projects/cover-flappybird.png"
+import coverFwc from "../public/assets/projects/cover-fwc.png"
+import coverIhungry from "../public/assets/projects/cover-ihungry.png"
+import coverNetflix from "../public/assets/projects/cover-netflix.jpg"
+import coverShareSpot from "../public/assets/projects/cover-sharespot.png"
+import coverSuperbid from "../public/assets/projects/cover-superbid.png"
+import coverPortfolio from "../public/assets/projects/demo-portfolio1.png"
 import ProjectItem from "./ProjectItem"
 
 const Projects = () => {
@@ -14,79 +22,66 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid gap-8 md:grid-cols-2">
-          {/*           <ProjectItem
+          <ProjectItem
             title="Qatar World Cup 2022"
-            backgroundImg={mobileFwcImg}
+            backgroundImg={coverFwc}
             projectUrl="/projects/mobile/fwc"
             tech="React Native"
           />
           <ProjectItem
-            title="Qatar World Cup 2022"
-            backgroundImg={mobileBankImg}
-            projectUrl="/projects/mobile/bank"
-            tech="React Native"
-          />
-          <ProjectItem
-            title="Qatar World Cup 2022"
-            backgroundImg={mobileFlappyBirdImg}
+            title="FlappyBird Game"
+            backgroundImg={coverFlappyBird}
             projectUrl="/projects/mobile/flappybird"
             tech="React Native"
           />
           <ProjectItem
+            title="OnlineBank"
+            backgroundImg={coverBank}
+            projectUrl="/projects/mobile/bank"
+            tech="React Native"
+          />
+          <ProjectItem
             title="My Portfolio Website"
-            backgroundImg={webPortfolioImg}
+            backgroundImg={coverPortfolio}
             projectUrl="/projects/web/portfolio"
-            tech="Next JS"
-          /> */}
-          <ProjectItem
-            title="Netflix Clone"
-            backgroundImg={webNetflixCloneImg}
-            projectUrl="/projects/web/netflix"
-            tech="Next JS"
+            tech="NextJS"
           />
           <ProjectItem
             title="Netflix Clone"
-            backgroundImg={webNetflixCloneImg}
+            backgroundImg={coverNetflix}
             projectUrl="/projects/web/netflix"
-            tech="Next JS"
-          />
-
-          <ProjectItem
-            title="Netflix Clone"
-            backgroundImg={webNetflixCloneImg}
-            projectUrl="/projects/web/netflix"
-            tech="Next JS"
+            tech="NextJS"
           />
           <ProjectItem
-            title="Netflix Clone"
-            backgroundImg={webNetflixCloneImg}
-            projectUrl="/projects/web/netflix"
-            tech="Next JS"
-          />
-          {/*           <ProjectItem
             title="ShareSpot"
-            backgroundImg={webShareSpotImg}
+            backgroundImg={coverShareSpot}
             projectUrl="/projects/web/sharespot"
-            tech="Next JS"
+            tech="NextJS"
+          />
+          <ProjectItem
+            title="ShareSpot"
+            backgroundImg={coverShareSpot}
+            projectUrl="/projects/web/sharespot"
+            tech="NextJS"
           />
           <ProjectItem
             title="iHungry"
-            backgroundImg={webIhungryImg}
+            backgroundImg={coverIhungry}
             projectUrl="/projects/web/ihungry"
-            tech="Next JS"
+            tech="NextJS"
           />
           <ProjectItem
             title="Superbid"
-            backgroundImg={webSuperbidImg}
+            backgroundImg={coverSuperbid}
             projectUrl="/projects/web/superbid"
-            tech="React JS"
+            tech="ReactJS"
           />
           <ProjectItem
             title="eTickets"
-            backgroundImg={webEticketsImg}
+            backgroundImg={coverEtickets}
             projectUrl="/projects/web/etickets"
-            tech="React JS"
-          /> */}
+            tech="ReactJS"
+          />
         </div>
       </div>
     </div>
