@@ -3,9 +3,9 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import netflixImg from "../../../public/assets/projects/netflix.jpg"
+import coverSuperbid from "../../../public/assets/projects/cover-superbid.png"
 
-const netflix = () => {
+const superbid = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -14,11 +14,11 @@ const netflix = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={coverSuperbid}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Netflix App</h2>
+          <h2 className="py-2">Superbid</h2>
           <h3>ReactJs / TypeScript / JavaScript / Styled-Components</h3>
         </div>
       </div>
@@ -31,6 +31,14 @@ const netflix = () => {
             React application - registration of sellers in a marketplace. Made
             using TypeScript and Styled-Components.
           </p>
+
+          <Image
+            className="rounded "
+            alt="Superbid Demo"
+            height="600"
+            width="800"
+            src="../../../public/assets/projects/cover-superbid.png"
+          />
           <a
             href="https://github.com/guilhermemm-dev/react-superbid"
             target="_blank"
@@ -48,20 +56,35 @@ const netflix = () => {
         </div>
         <div className="col-span-4 py-4 shadow-xl md:col-span-1 shadow-[#005687] rounded-xl">
           <div className="p-2">
-            <p className="pb-2 font-bold text-center">Technologies</p>
+            <p className="pb-2 font-bold text-center">🛠 Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> ReactJs
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> JavaScript
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> TypeScript
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Styled-Components
-              </p>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="React"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-react.svg"
+                />
+                &nbsp;React
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="JavaScript"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-javascript.svg"
+                />
+                &nbsp;JavaScript
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="Styled-Components"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-styledcomponents.png"
+                />
+                &nbsp;Styled-Components
+              </div>
               <p className="flex items-center py-2 ">
                 <RiRadioButtonFill className="pr-1" /> ViteJs
               </p>
@@ -79,4 +102,4 @@ const netflix = () => {
   )
 }
 
-export default netflix
+export default superbid

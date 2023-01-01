@@ -1,9 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import webPortfolioImg from '../../../public/assets/projects/web-portfolio.jpg'
+import coverPortfolio from "../../../public/assets/projects/demo-portfolio1.png"
 
 const portfolio = () => {
   return (
@@ -14,7 +13,7 @@ const portfolio = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={webPortfolioImg}
+          src={coverPortfolio}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -28,6 +27,20 @@ const portfolio = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>My portfolio page</p>
+          <Image
+            className="rounded "
+            alt="Portfolio Demo1"
+            height="600"
+            width="800"
+            src="/assets/projects/demo-portfolio1.png"
+          />
+          <Image
+            className="rounded "
+            alt="Portfolio Demo2"
+            height="800"
+            width="600"
+            src="/assets/projects/demo-portfolio2.png"
+          />
           <a
             href="https://github.com/guilhermemm-dev/portfolio-v3"
             target="_blank"
@@ -41,26 +54,50 @@ const portfolio = () => {
         </div>
         <div className="col-span-4 py-4 shadow-xl md:col-span-1 shadow-[#005687] rounded-xl">
           <div className="p-2">
-            <p className="pb-2 font-bold text-center">Technologies</p>
+            <p className="pb-2 font-bold text-center">🛠 Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> NextJs
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> ReactJs
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> JavaScript
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> TailwindCSS
-              </p>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="NextJs"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-next.svg"
+                />
+                &nbsp;NextJs
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="React Native"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-react.svg"
+                />
+                &nbsp;React
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="JavaScript"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-javascript.svg"
+                />
+                &nbsp;JavaScript
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="Tailwind"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-tailwind.svg"
+                />
+                &nbsp;Tailwind
+              </div>
             </div>
           </div>
+          <Link href="/#projects">
+            <p className="underline cursor-pointer">Back</p>
+          </Link>
         </div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link>
       </div>
     </div>
   )

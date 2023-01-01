@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import iHungryImg from '../../../public/assets/projects/web-ihungry.jpg'
+import coverIhungry from '../../../public/assets/projects/cover-ihungry.png'
 
 const ihungry = () => {
   return (
@@ -14,7 +14,7 @@ const ihungry = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={iHungryImg}
+          src={coverIhungry}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -31,6 +31,20 @@ const ihungry = () => {
             Food delivery web application, iFood style, UberEats etc... using
             Next.Js, React, TypeScript and TailwindCSS.
           </p>
+          <Image
+            className="rounded "
+            alt="Ihungry Demo1"
+            height="600"
+            width="800"
+            src="/assets/projects/demo-ihungry1.png"
+          />
+          <Image
+            className="rounded "
+            alt="Ihungry Demo2"
+            height="600"
+            width="800"
+            src="/assets/projects/demo-ihungry2.png"
+          />
           <a
             href="https://github.com/guilhermemm-dev/on-food"
             target="_blank"
@@ -48,29 +62,59 @@ const ihungry = () => {
         </div>
         <div className="col-span-4 py-4 shadow-xl md:col-span-1 shadow-[#005687] rounded-xl">
           <div className="p-2">
-            <p className="pb-2 font-bold text-center">Technologies</p>
+            <p className="pb-2 font-bold text-center">🛠 Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> NextJs
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> ReactJs
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> TypeScript
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> JavaScript
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> TailwindCSS
-              </p>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="NextJs"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-next.svg"
+                />
+                &nbsp;NextJs
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="React Native"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-react.svg"
+                />
+                &nbsp;React
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="TypeScript"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-typescript.svg"
+                />
+                &nbsp;TypeScript
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="JavaScript"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-javascript.svg"
+                />
+                &nbsp;JavaScript
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="Tailwind"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-tailwind.svg"
+                />
+                &nbsp;Tailwind
+              </div>
             </div>
           </div>
+          <Link href="/#projects">
+            <p className="underline cursor-pointer">Back</p>
+          </Link>
         </div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link>
       </div>
     </div>
   )

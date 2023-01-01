@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import mobileBankImg from '../../../public/assets/projects/mobile-bank.jpg'
+import coverBank from "../../../public/assets/projects/cover-bank.png"
 
 const bank = () => {
   return (
@@ -14,7 +14,7 @@ const bank = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={mobileBankImg}
+          src={coverBank}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -31,6 +31,15 @@ const bank = () => {
             React Native Bank/Finance App for iOS and Android using Moti and
             React Native Reanimated.
           </p>
+          <div className="mt-2 mb-3">
+            <Image
+              className="rounded "
+              alt="Bank Demo"
+              height="600"
+              width="800"
+              src="/assets/projects/demo-bank.gif"
+            />
+          </div>
           <a
             href="https://github.com/guilhermemm-dev/mobile-finances-app"
             target="_blank"
@@ -48,23 +57,41 @@ const bank = () => {
         </div>
         <div className="col-span-4 py-4 shadow-xl md:col-span-1 shadow-[#005687] rounded-xl">
           <div className="p-2">
-            <p className="pb-2 font-bold text-center">Technologies</p>
+            <p className="pb-2 font-bold text-center">🛠 Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> React Native
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> JavaScript
-              </p>
-              <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Expo Go
-              </p>
-              <p className="flex items-center py-2 ">
+              <div className="flex items-center py-2">
+                <Image
+                  alt="React Native"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-react.svg"
+                />
+                &nbsp;React Native
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="JavaScript"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-javascript.svg"
+                />
+                &nbsp;JavaScript
+              </div>
+              <div className="flex items-center py-2">
+                <Image
+                  alt="Expo Go"
+                  height="20"
+                  width="20"
+                  src="/assets/icons/icon-expogo.svg"
+                />
+                &nbsp;Expo Go
+              </div>
+              <div className="flex items-center py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Moti
-              </p>
-              <p className="flex items-center py-2 ">
+              </div>
+              <div className="flex items-center py-2 ">
                 <RiRadioButtonFill className="pr-1" /> RN Reanimated
-              </p>
+              </div>
             </div>
           </div>
         </div>
