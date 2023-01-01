@@ -18,7 +18,7 @@ const fwc = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">BeMyGuess</h2>
+          <h2 className="py-2">BeMyGuess - Qatar World Cup 2022</h2>
           <h3>
             NextJs / React Native / NodeJs / TypeScript / Native Base /
             TailwindCSS
@@ -30,19 +30,23 @@ const fwc = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="mt-2 mb-3">
             The project consists of an full-stack cross-platform application
             with the Football World Cup 2022, which will allow users to create
             their own cup pools to try predict the results of matches and play
             together with their friends.
           </p>
-          <Image
-            className="rounded "
-            alt="Fwc Demo"
-            height="600"
-            width="800"
-            src="/assets/projects/demo-fwc.png"
-          />
+          <div className="mt-2 mb-3">
+            {" "}
+            <Image
+              className="rounded "
+              alt="Fwc Demo"
+              height="1200"
+              width="800"
+              src="/assets/projects/demo-fwc.png"
+            />
+          </div>
+
           <a
             href="https://github.com/guilhermemm-dev/world-cup-project"
             target="_blank"

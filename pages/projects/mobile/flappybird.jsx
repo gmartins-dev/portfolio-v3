@@ -27,7 +27,7 @@ const flappybird = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="mt-5 mb-3">
             React Native Mobile Game App for iOS and Android using React Native
             Engine and MatterJS.
           </p>

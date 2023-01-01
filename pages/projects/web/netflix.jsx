@@ -118,7 +118,7 @@ const netflix = () => {
                   alt="Styled-Components"
                   height="20"
                   width="20"
-                  src="/assets/icons/icon-stylecomponents.png"
+                  src="../../../public/assets/icons/icon-stylecomponents.png"
                 />
                 &nbsp;Styled-Components
               </div>

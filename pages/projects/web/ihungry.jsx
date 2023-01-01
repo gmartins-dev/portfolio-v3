@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import coverIhungry from '../../../public/assets/projects/cover-ihungry.png'
+import coverIhungry from "../../../public/assets/projects/cover-ihungry.png"
 
 const ihungry = () => {
   return (
@@ -24,27 +24,31 @@ const ihungry = () => {
       </div>
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
-        <div className="col-span-4">
+        <div className="col-span-4 ">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="mt-5 mb-3">
             Food delivery web application, iFood style, UberEats etc... using
             Next.Js, React, TypeScript and TailwindCSS.
           </p>
-          <Image
-            className="rounded "
-            alt="Ihungry Demo1"
-            height="600"
-            width="800"
-            src="/assets/projects/demo-ihungry1.png"
-          />
-          <Image
-            className="rounded "
-            alt="Ihungry Demo2"
-            height="600"
-            width="800"
-            src="/assets/projects/demo-ihungry2.png"
-          />
+          <div className="mt-2 mb-3">
+            {" "}
+            <Image
+              className="rounded "
+              alt="Ihungry Demo1"
+              height="600"
+              width="800"
+              src="/assets/projects/demo-ihungry1.jpeg"
+            />
+            <Image
+              className="rounded "
+              alt="Ihungry Demo2"
+              height="600"
+              width="800"
+              src="/assets/projects/demo-ihungry2.jpeg"
+            />
+          </div>
+
           <a
             href="https://github.com/guilhermemm-dev/on-food"
             target="_blank"
@@ -105,7 +109,7 @@ const ihungry = () => {
                   alt="Tailwind"
                   height="20"
                   width="20"
-                  src="/assets/icons/icon-tailwind.svg"
+                  src="/assets/icons/icon-styledcomponents.png"
                 />
                 &nbsp;Tailwind
               </div>

@@ -142,7 +142,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>StyledComponents</h3>
+                <h3>Styled Components</h3>
               </div>
             </div>
           </div>

@@ -26,21 +26,29 @@ const portfolio = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>My portfolio page</p>
-          <Image
-            className="rounded "
-            alt="Portfolio Demo1"
-            height="600"
-            width="800"
-            src="/assets/projects/demo-portfolio1.png"
-          />
-          <Image
-            className="rounded "
-            alt="Portfolio Demo2"
-            height="800"
-            width="600"
-            src="/assets/projects/demo-portfolio2.png"
-          />
+          <p className="mt-5 mb-3">My portfolio page</p>
+          <div className="mt-5 mb-3">
+            <div className="flex justify-center p-1 bg-[#202023]">
+              <Image
+                className="rounded "
+                alt="Portfolio Demo1"
+                height="600"
+                width="800"
+                src="/assets/projects/demo-portfolio1.png"
+              />
+            </div>
+
+            <div className="flex justify-center p-1 bg-[#202023]">
+              <Image
+                className="rounded "
+                alt="Portfolio Demo2"
+                height="1200"
+                width="600"
+                src="/assets/projects/demo-portfolio2.png"
+                background-color="white"
+              />
+            </div>
+          </div>
           <a
             href="https://github.com/guilhermemm-dev/portfolio-v3"
             target="_blank"
@@ -94,10 +102,10 @@ const portfolio = () => {
               </div>
             </div>
           </div>
-          <Link href="/#projects">
-            <p className="underline cursor-pointer">Back</p>
-          </Link>
         </div>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
+        </Link>
       </div>
     </div>
   )

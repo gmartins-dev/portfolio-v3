@@ -29,18 +29,21 @@ const sharespot = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="mt-5 mb-3">
             FullStack Next.Js application - “ShareSpot” in reference to Spotify,
             the idea was basically to build a social network to share your
             favorite songs, playlists, and podcasts.
           </p>
-          <Image
-            className="rounded "
-            alt="ShareSpot Demo"
-            height="600"
-            width="800"
-            src="/assets/projects/cover-sharespot.png"
-          />
+          <div className="mt-5 mb-3">
+            <Image
+              className="rounded "
+              alt="ShareSpot Demo"
+              height="600"
+              width="800"
+              src="/assets/projects/cover-sharespot.png"
+            />
+          </div>
+
           <a
             href="https://github.com/guilhermemm-dev/next-socialdev"
             target="_blank"

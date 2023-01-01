@@ -27,18 +27,19 @@ const superbid = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="mt-5 mb-3">
             React application - registration of sellers in a marketplace. Made
             using TypeScript and Styled-Components.
           </p>
-
-          <Image
-            className="rounded "
-            alt="Superbid Demo"
-            height="600"
-            width="800"
-            src="../../../public/assets/projects/cover-superbid.png"
-          />
+          <div className="mt-5 mb-3">
+            <Image
+              className="rounded "
+              alt="Superbid Demo"
+              height="600"
+              width="800"
+              src={coverSuperbid}
+            />
+          </div>
           <a
             href="https://github.com/guilhermemm-dev/react-superbid"
             target="_blank"

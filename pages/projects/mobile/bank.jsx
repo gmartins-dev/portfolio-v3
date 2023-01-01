@@ -27,7 +27,7 @@ const bank = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="mt-5 mb-3">
             React Native Bank/Finance App for iOS and Android using Moti and
             React Native Reanimated.
           </p>

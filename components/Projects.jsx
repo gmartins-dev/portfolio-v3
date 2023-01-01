@@ -23,7 +23,7 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
-            title="Qatar World Cup 2022"
+            title="BeMyGuess"
             backgroundImg={coverFwc}
             projectUrl="/projects/mobile/fwc"
             tech="React Native"
@@ -59,12 +59,6 @@ const Projects = () => {
             tech="NextJS"
           />
           <ProjectItem
-            title="ShareSpot"
-            backgroundImg={coverShareSpot}
-            projectUrl="/projects/web/sharespot"
-            tech="NextJS"
-          />
-          <ProjectItem
             title="iHungry"
             backgroundImg={coverIhungry}
             projectUrl="/projects/web/ihungry"
@@ -76,12 +70,12 @@ const Projects = () => {
             projectUrl="/projects/web/superbid"
             tech="ReactJS"
           />
-          <ProjectItem
+          {/*           <ProjectItem
             title="eTickets"
             backgroundImg={coverEtickets}
             projectUrl="/projects/web/etickets"
             tech="ReactJS"
-          />
+          /> */}
         </div>
       </div>
     </div>
