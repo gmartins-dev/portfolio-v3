@@ -33,7 +33,40 @@ const netflix = () => {
             Frontend focused Netflix clone project, using Next.Js, React,
             MateriaUI and styled-components.
           </p>
-          
+          <div className="mt-2 mb-3">
+            <img
+              className="rounded "
+              alt="Netflix Demo"
+              height="600"
+              width="800"
+              src="/assets/projects/demo-netflix.gif"
+            />
+          </div>
+          <div className="leading-7">
+            <p>
+              <b>Description: </b>A front-end Netflix clone built using Next.js
+              and consuming themoviedb.org public API to get information about
+              movies and series.
+            </p>
+            <p>
+              <b>Objective:</b> Study in practice how the SSR (Server Side
+              Rendering) feature of the React Next.js framework works. Results:
+              An application with extremely fast and flawless loading, with a
+              fully responsive design and mobile friendly.
+            </p>
+            <p>
+              See more infos about this project on my LinkedIn
+              <a
+                href="https://bit.ly/post-nextflix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                [click here]
+              </a>
+            </p>
+          </div>
+
           <a
             href="https://github.com/guilhermemm-dev/accurate-frontend"
             target="_blank"
@@ -53,76 +86,57 @@ const netflix = () => {
           <div className="p-2">
             <p className="pb-2 font-bold text-center">🛠 Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="flex items-center py-2 ">
+              <div className="flex items-center py-2">
                 <Image
-                  className="pr-2"
-                  alt="JavaScript"
+                  alt="NextJs"
                   height="20"
                   width="20"
-                  src="/icon-javascript.svg"
+                  src="/assets/icons/icon-next.svg"
                 />
                 &nbsp;NextJs
-              </p>
-              <p className="flex items-center py-2 ">
+              </div>
+              <div className="flex items-center py-2">
                 <Image
-                  className="pr-2"
-                  alt="JavaScript"
+                  alt="ReactJs"
                   height="20"
                   width="20"
-                  src="/icon-javascript.svg"
+                  src="/assets/icons/icon-react.svg"
                 />
                 &nbsp;ReactJs
-              </p>
-              <p className="flex items-center py-2">
+              </div>
+              <div className="flex items-center py-2">
                 <Image
-                  className="pr-2"
                   alt="JavaScript"
                   height="20"
                   width="20"
-                  src="/icon-javascript.svg"
+                  src="/assets/icons/icon-javascript.svg"
                 />
                 &nbsp;JavaScript
-              </p>
-              <p className="flex items-center py-2 ">
+              </div>
+              <div className="flex items-center py-2">
                 <Image
-                  className="pr-2"
-                  alt="JavaScript"
+                  alt="Styled-Components"
                   height="20"
                   width="20"
-                  src="/icon-javascript.svg"
+                  src="/assets/icons/icon-stylecomponents.png"
                 />
                 &nbsp;Styled-Components
-              </p>
-              <p className="flex items-center py-2 ">
+              </div>
+              <div className="flex items-center py-2">
                 <Image
-                  className="pr-2"
-                  alt="JavaScript"
+                  alt="MaterialUI"
                   height="20"
                   width="20"
-                  src="/icon-javascript.svg"
+                  src="/assets/icons/icon-materialui.png"
                 />
-                &nbsp;MaterialUi
-              </p>
-              <p className="flex items-center py-2 ">
-                <Image
-                  className="pr-2"
-                  alt="JavaScript"
-                  height="20"
-                  width="20"
-                  src="/icon-javascript.svg"
-                />
-                &nbsp;Axios
-              </p>
-              <p className="flex items-center py-2 ">
-                <Image
-                  className="pr-2"
-                  alt="JavaScript"
-                  height="20"
-                  width="20"
-                  src="/icon-javascript.svg"
-                />
-                &nbsp;Postman
-              </p>
+                &nbsp;MaterialUI
+              </div>
+              <div className="flex items-center py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Axios
+              </div>
+              <div className="flex items-center py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Postman
+              </div>
             </div>
           </div>
         </div>
