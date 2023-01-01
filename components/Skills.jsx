@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Image from "next/image"
 import React from "react"
 import Angular from "../public/assets/icons/icon-angular.svg"
