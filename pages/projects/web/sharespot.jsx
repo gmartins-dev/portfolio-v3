@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { RiRadioButtonFill } from "react-icons/ri"
 // @ts-ignore
-import webSharespotImg from '../../../public/assets/projects/web-sharespot.jpg'
+import webSharespotImg from "../../../public/assets/projects/web-sharespot.jpg"
 
 const sharespot = () => {
   return (
@@ -20,8 +20,7 @@ const sharespot = () => {
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">ShareSpot</h2>
           <h3>
-            NextJs / ReactJs / NodeJs / MongoDB / JavaScript /
-            Styled-Components
+            NextJs / ReactJs / NodeJs / MongoDB / JavaScript / Styled-Components
           </h3>
         </div>
       </div>
@@ -55,7 +54,8 @@ const sharespot = () => {
             <p className="pb-2 font-bold text-center">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2 ">
-                <RiRadioButtonFill className="pr-1" /> NextJs
+                <RiRadioButtonFill className="pr-1" /> NextJs{" "}
+              </p>
               <p className="flex items-center py-2 ">
                 <RiRadioButtonFill className="pr-1" /> ReactJs
               </p>
