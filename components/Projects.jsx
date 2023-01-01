@@ -1,10 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import cryptoImg from "../public/assets/projects/crypto.jpg"
-import netflixImg from "../public/assets/projects/netflix.jpg"
-import propertyImg from "../public/assets/projects/property.jpg"
-import twitchImg from "../public/assets/projects/twitch.jpg"
+import webNetflixCloneImg from "../public/assets/projects/web-netflix.jpg"
 import ProjectItem from "./ProjectItem"
 
 const Projects = () => {
@@ -16,7 +13,7 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid gap-8 md:grid-cols-2">
-          <ProjectItem
+{/*           <ProjectItem
             title="Qatar World Cup 2022"
             backgroundImg={mobileFwcImg}
             projectUrl="/projects/mobile/fwc"
@@ -39,14 +36,14 @@ const Projects = () => {
             backgroundImg={webPortfolioImg}
             projectUrl="/projects/web/portfolio"
             tech="Next JS"
-          />
+          /> */}
           <ProjectItem
             title="Netflix Clone"
             backgroundImg={webNetflixCloneImg}
             projectUrl="/projects/web/netflix"
             tech="Next JS"
           />
-          <ProjectItem
+{/*           <ProjectItem
             title="ShareSpot"
             backgroundImg={webShareSpotImg}
             projectUrl="/projects/web/sharespot"
@@ -69,7 +66,7 @@ const Projects = () => {
             backgroundImg={webEticketsImg}
             projectUrl="/projects/web/etickets"
             tech="React JS"
-          />
+          /> */}
         </div>
       </div>
     </div>
