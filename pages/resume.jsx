@@ -9,7 +9,7 @@ const resume = () => {
         <title>Guilherme Martins | Resume</title>
         <meta
           name="description"
-          content="I build beautiful Web and Mobile applications with great usability, scalability and performance to improve and facilitate people`s lives."
+          content="I build beautiful Web and Mobile applications with great usability, scalability and performance to improve and facilitate people's lives."
         />
         <link rel="icon" href="/public/assets/favicon.svg" />
       </Head>

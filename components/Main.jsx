@@ -17,9 +17,9 @@ const Main = () => {
           </h1>
           <h1 className="py-2">Frontend Developer</h1>
           <p className="py-4 text-[#d7e0e5] sm:max-w-[70%] m-auto">
-            I build beautiful Web and Mobile applications with
-            great usability, scalability and performance to improve and
-            facilitate people`s lives.
+            I build beautiful Web and Mobile applications with great usability,
+            scalability and performance to improve and facilitate people&apos;s
+            lives.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
             <a
