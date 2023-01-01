@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
@@ -13,7 +14,7 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid gap-8 md:grid-cols-2">
-{/*           <ProjectItem
+          {/*           <ProjectItem
             title="Qatar World Cup 2022"
             backgroundImg={mobileFwcImg}
             projectUrl="/projects/mobile/fwc"
@@ -43,7 +44,26 @@ const Projects = () => {
             projectUrl="/projects/web/netflix"
             tech="Next JS"
           />
-{/*           <ProjectItem
+          <ProjectItem
+            title="Netflix Clone"
+            backgroundImg={webNetflixCloneImg}
+            projectUrl="/projects/web/netflix"
+            tech="Next JS"
+          />
+
+          <ProjectItem
+            title="Netflix Clone"
+            backgroundImg={webNetflixCloneImg}
+            projectUrl="/projects/web/netflix"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="Netflix Clone"
+            backgroundImg={webNetflixCloneImg}
+            projectUrl="/projects/web/netflix"
+            tech="Next JS"
+          />
+          {/*           <ProjectItem
             title="ShareSpot"
             backgroundImg={webShareSpotImg}
             projectUrl="/projects/web/sharespot"
