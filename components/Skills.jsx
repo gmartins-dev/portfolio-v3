@@ -25,7 +25,7 @@ import Tailwind from "../public/assets/skills/tailwind.png"
 const Skills = () => {
   return (
     <div id="skills" className="w-full p-2 lg:h-screen">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+      <div className="max-w-[1240px] max-h-[screen] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#2A7AE2]">
           Skills
         </p>
@@ -157,7 +157,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 bg-[#093366]">
+{/*           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 bg-[#093366]">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image src={NodeJS} width="64px" height="64px" alt="/" />
@@ -196,8 +196,8 @@ const Skills = () => {
                 <h3>Firebase</h3>
               </div>
             </div>
-          </div>
-          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 bg-[#093366]">
+          </div> */}
+          {/*           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 bg-[#093366]">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image src={RestAPI} width="64px" height="64px" alt="/" />
@@ -236,7 +236,7 @@ const Skills = () => {
                 <h3>Github</h3>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
