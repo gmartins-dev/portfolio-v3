@@ -157,7 +157,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <a href="https://bit.ly/gmmcv" target="_blank" rel="noreferrer">
+              <a
+                href="https://guilhermemm.dev/cv"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
