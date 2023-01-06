@@ -9,6 +9,11 @@ const nextConfig = {
           "https://drive.google.com/file/d/1hIixG5lAJIKpFfTuKvNiVmtwk1vn4mJt/view",
         permanent: false,
       },
+      {
+        source: "/gh",
+        destination: "https://github.com/guilhermemm-dev",
+        permanent: false,
+      },
     ]
   },
 }
