@@ -14,6 +14,16 @@ const nextConfig = {
         destination: "https://github.com/guilhermemm-dev",
         permanent: false,
       },
+      {
+        source: "/linkedin",
+        destination: "https://www.linkedin.com/in/guilhermemm-dev/",
+        permanent: false,
+      },
+      {
+        source: "/email",
+        destination: "mailto:contact@guilhermemm.dev",
+        permanent: false,
+      },
     ]
   },
 }
