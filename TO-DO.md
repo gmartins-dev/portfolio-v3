@@ -1,5 +1,5 @@
 FALTAR FAZER:
-[] add imagens projetos
-[] add mais skills
-[] add imagens skills
+[x] add imagens projetos
+[x] add mais skills
+[x] add imagens skills
 
