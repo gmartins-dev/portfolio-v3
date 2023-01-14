@@ -11,7 +11,7 @@ const resume = () => {
           name="description"
           content="I'm driven by building beautiful Web and Mobile applications with great usability, scalability and performance to improve and facilitate people's lives."
         />
-        <link rel="icon" href="/public/assets/favicon.svg" />
+        <link rel="icon" href="/public/assets/favicon.ico" />
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
