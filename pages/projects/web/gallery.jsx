@@ -2,9 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 // @ts-ignore
-import coverIhungry from '../../../public/assets/projects/cover-ihungry.png'
+import coverGallery from '../../../public/assets/projects/demo-gallery.png'
 
-const Ihungry = () => {
+const Gallery = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,14 @@ const Ihungry = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={coverIhungry}
+          src={coverGallery}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>iHungry</h2>
-          <h3>NextJs / ReactJs / TypeScript / JavaScript / TailwindCSS</h3>
+          <h2 className='py-2'>Gallery</h2>
+          <h3>
+            NextJs / ReactJs / TypeScript / JavaScript / TailwindCSS / Supabase
+          </h3>
         </div>
       </div>
 
@@ -27,36 +29,30 @@ const Ihungry = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className='mt-5 mb-3'>
-            Food delivery web application, iFood style, UberEats etc... using
-            Next.Js, React, TypeScript and TailwindCSS.
+            Image Gallery with Next.js new version 13, Supabase, and Tailwind
+            CSS. Features: SSR Component, Supabase Edge Function Hook to
+            Postgress Database, Animation and Lazy Loading images.
           </p>
           <div className='mt-2 mb-3'>
             {' '}
             <Image
               className='rounded '
-              alt='Ihungry Demo1'
+              alt='Gallery Demo'
               height='600'
               width='800'
-              src='/assets/projects/demo-ihungry1.jpeg'
-            />
-            <Image
-              className='rounded '
-              alt='Ihungry Demo2'
-              height='600'
-              width='800'
-              src='/assets/projects/demo-ihungry2.jpeg'
+              src={coverGallery}
             />
           </div>
 
           <a
-            href='https://github.com/guilhermemm-dev/on-food'
+            href='https://github.com/guilhermemm-dev/nextjs-gallery'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://on-food-guilhermemm-dev.vercel.app/'
+            href='https://nextjs-gallery-swart.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -112,6 +108,15 @@ const Ihungry = () => {
                 />
                 &nbsp;Tailwind
               </div>
+              <div className='flex items-center py-2'>
+                <Image
+                  alt='Tailwind'
+                  height='20'
+                  width='20'
+                  src='/assets/icons/icon-supabase.svg'
+                />
+                &nbsp;Supabase
+              </div>
             </div>
           </div>
           <Link href='/#projects'>
@@ -123,4 +128,4 @@ const Ihungry = () => {
   )
 }
 
-export default Ihungry
+export default Gallery

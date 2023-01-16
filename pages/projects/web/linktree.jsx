@@ -2,9 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 // @ts-ignore
-import coverIhungry from '../../../public/assets/projects/cover-ihungry.png'
+import coverLinktree from '../../../public/assets/projects/demo-linktree.png'
 
-const Ihungry = () => {
+const Linktree = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,11 +13,11 @@ const Ihungry = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={coverIhungry}
+          src={coverLinktree}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>iHungry</h2>
+          <h2 className='py-2'>Gallery</h2>
           <h3>NextJs / ReactJs / TypeScript / JavaScript / TailwindCSS</h3>
         </div>
       </div>
@@ -27,36 +27,29 @@ const Ihungry = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className='mt-5 mb-3'>
-            Food delivery web application, iFood style, UberEats etc... using
-            Next.Js, React, TypeScript and TailwindCSS.
+            A link-sharing application with Next.js 13, React, and styling with
+            TailwindCSS. Features: SSR Component, Vercel Edge Function Hook.
           </p>
           <div className='mt-2 mb-3'>
             {' '}
             <Image
               className='rounded '
-              alt='Ihungry Demo1'
+              alt='Linktree Demo'
               height='600'
               width='800'
-              src='/assets/projects/demo-ihungry1.jpeg'
-            />
-            <Image
-              className='rounded '
-              alt='Ihungry Demo2'
-              height='600'
-              width='800'
-              src='/assets/projects/demo-ihungry2.jpeg'
+              src={coverLinktree}
             />
           </div>
 
           <a
-            href='https://github.com/guilhermemm-dev/on-food'
+            href='https://github.com/guilhermemm-dev/nextjs13-linktree'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://on-food-guilhermemm-dev.vercel.app/'
+            href='https://nextjs13-linktree.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -123,4 +116,4 @@ const Ihungry = () => {
   )
 }
 
-export default Ihungry
+export default Linktree
