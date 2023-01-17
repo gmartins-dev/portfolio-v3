@@ -23,7 +23,7 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid gap-8 md:grid-cols-2'>
           <ProjectItem
-            title='Gallery'
+            title='Dashboard'
             backgroundImg={covarDashboard}
             projectUrl='/projects/web/dashboard'
             tech='NextJS'
