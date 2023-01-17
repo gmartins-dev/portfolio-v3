@@ -7,6 +7,7 @@ import coverIhungry from '../public/assets/projects/cover-ihungry.png'
 import coverNetflix from '../public/assets/projects/cover-netflix.jpg'
 import coverShareSpot from '../public/assets/projects/cover-sharespot.png'
 import coverSuperbid from '../public/assets/projects/cover-superbid.png'
+import covarDashboard from '../public/assets/projects/demo-dashboard1.png'
 import coverGallery from '../public/assets/projects/demo-gallery.png'
 import coverLinktree from '../public/assets/projects/demo-linktree.png'
 import coverPortfolio from '../public/assets/projects/demo-portfolio1.png'
@@ -21,6 +22,12 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid gap-8 md:grid-cols-2'>
+          <ProjectItem
+            title='Gallery'
+            backgroundImg={covarDashboard}
+            projectUrl='/projects/web/dashboard'
+            tech='NextJS'
+          />
           <ProjectItem
             title='Gallery'
             backgroundImg={coverGallery}
