@@ -13,18 +13,17 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 '>
-            My focus is on Frontend Development on Web and Mobile applications,
+            My focus is on Front-end Development on Web and Mobile applications,
             I have experience with projects using React, React Native, Next.js,
             Angular, Vue, JavaScript, TypeScript, HTML, CSS, Styled-Components,
             TailwindCSS, Bootstrap, Chakra UI, Material UI and others.
           </p>
           <p className='py-2 '>
-            What most attracts me about working with frontend development is the
-            possibility of combining both the creative part to think of
-            solutions that directly affect the way people will use websites,
-            programs, and mobile applications together with the logical part of
-            solving problems so that this is done in the most optimized and
-            performative way possible.
+            I am driven by facilitating people&apos;s lives through beautiful
+            Web and Mobile applications with great usability, scalability, and
+            performance. The possibility of combining logical problem-solving
+            with the creative processes of user experience is what attracts me
+            most to front-end development.
           </p>
           <p className='py-2 '>
             I&apos;m constantly looking to improve as a professional and learn
