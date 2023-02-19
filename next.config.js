@@ -6,7 +6,7 @@ const nextConfig = {
       {
         source: '/cv',
         destination:
-          'https://drive.google.com/file/d/1hIixG5lAJIKpFfTuKvNiVmtwk1vn4mJt/view',
+          'https://drive.google.com/file/d/111TENYu6ocfqKIPxmrAFDNPqgunvzWSN/view',
         permanent: false,
       },
       {
