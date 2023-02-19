@@ -2203,6 +2203,11 @@
   dependencies:
     "find-up" "^4.0.0"
 
+"pnpm@^7.27.1":
+  "integrity" "sha512-IpBeZ+71slENbuOXwbV4U6yxOMfEWEvlVuT6+ChZ1D80oF0eHyN4h/hc13UrzVXpXI3bf7sPfRWGb8TYkrvJUA=="
+  "resolved" "https://registry.npmjs.org/pnpm/-/pnpm-7.27.1.tgz"
+  "version" "7.27.1"
+
 "postcss-js@^4.0.0":
   "integrity" "sha512-77QESFBwgX4irogGVPgQ5s07vLvFqWr228qZY+w6lW599cRlK/HmnlivnnVUxkjHnCu4J16PDMHcH+e+2HbvTQ=="
   "resolved" "https://registry.npmjs.org/postcss-js/-/postcss-js-4.0.0.tgz"
