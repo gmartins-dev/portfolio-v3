@@ -1,18 +1,19 @@
 // @ts-nocheck
 import React from 'react'
 import coverBank from '../public/assets/projects/cover-bank.png'
-import coverChat from '../public/assets/projects/cover-chat.png'
+import coverEtickets from '../public/assets/projects/cover-etickets.png'
 import coverFlappyBird from '../public/assets/projects/cover-flappybird.png'
 import coverFwc from '../public/assets/projects/cover-fwc.png'
 import coverIhungry from '../public/assets/projects/cover-ihungry.png'
 import coverNetflix from '../public/assets/projects/cover-netflix.jpg'
 import coverShareSpot from '../public/assets/projects/cover-sharespot.png'
 import coverSuperbid from '../public/assets/projects/cover-superbid.png'
+import coverChat from '../public/assets/projects/demo-chat-mobile.png'
 import coverDashboard from '../public/assets/projects/demo-dashboard1.png'
 import coverGallery from '../public/assets/projects/demo-gallery.png'
 import coverLinktree from '../public/assets/projects/demo-linktree.png'
 import coverPortfolio from '../public/assets/projects/demo-portfolio1.png'
-import coverPokedex from '../public/assets/projects/pokedex-desktop.png'
+import coverPokedex from '../public/assets/projects/pokedex-mobile2.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -102,12 +103,12 @@ const Projects = () => {
             projectUrl='/projects/web/superbid'
             tech='ReactJS'
           />
-          {/*           <ProjectItem
-            title="eTickets"
+          <ProjectItem
+            title='eTickets'
             backgroundImg={coverEtickets}
-            projectUrl="/projects/web/etickets"
-            tech="ReactJS"
-          /> */}
+            projectUrl='/projects/web/etickets'
+            tech='ReactJS'
+          />
         </div>
       </div>
     </div>
