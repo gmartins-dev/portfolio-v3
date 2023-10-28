@@ -21,7 +21,7 @@ const nextConfig = {
       },
       {
         source: '/email',
-        destination: 'mailto:contact@guilhermemm.dev',
+        destination: 'mailto:guilhermemm.dev@gmail.com',
         permanent: false,
       },
       {
