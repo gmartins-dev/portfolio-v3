@@ -6,7 +6,13 @@ const nextConfig = {
       {
         source: '/cv',
         destination:
-          'https://drive.google.com/file/d/13vllHOw2-r9F4Yf3FoOxREJXxJ6I4sH6/view',
+          'https://drive.google.com/file/d/16hUsXojLpXhZh2BzqD6FZGgQ8VI-M1YD/view?usp=sharing',
+        permanent: false,
+      },
+      {
+        source: '/cv-ptbr',
+        destination:
+          'https://drive.google.com/file/d/1tORZmchZY9K5EXQjwUfwmr2_FrCzfSlL/view?usp=sharing',
         permanent: false,
       },
       {
