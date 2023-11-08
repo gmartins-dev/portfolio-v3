@@ -3,5 +3,5 @@ FALTAR FAZER:
 [x] add mais skills
 [x] add imagens skills
 
-  git config --global user.email "guilhermemm.dev@gmail.com"
-  git config --global user.name "guilhermemm-dev"
+git config --global user.email "guilhermemm.dev@gmail.com"
+git config --global user.name "gmartins-dev"

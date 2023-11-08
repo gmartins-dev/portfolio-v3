@@ -49,14 +49,14 @@ const Ihungry = () => {
           </div>
 
           <a
-            href='https://github.com/guilhermemm-dev/on-food'
+            href='https://github.com/gmartins-dev/on-food'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://on-food-guilhermemm-dev.vercel.app/'
+            href='https://on-food-gmartins-dev.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >

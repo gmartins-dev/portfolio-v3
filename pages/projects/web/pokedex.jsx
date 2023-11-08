@@ -70,7 +70,7 @@ const Pokedex = () => {
           </div>
 
           <a
-            href='https://github.com/guilhermemm-dev/nextjs-pokedex'
+            href='https://github.com/gmartins-dev/nextjs-pokedex'
             target='_blank'
             rel='noreferrer'
           >

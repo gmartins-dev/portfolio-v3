@@ -42,7 +42,7 @@ const Linktree = () => {
           </div>
 
           <a
-            href='https://github.com/guilhermemm-dev/nextjs13-linktree'
+            href='https://github.com/gmartins-dev/nextjs13-linktree'
             target='_blank'
             rel='noreferrer'
           >

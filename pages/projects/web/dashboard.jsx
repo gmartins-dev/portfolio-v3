@@ -61,7 +61,7 @@ const Dashboard = () => {
           </div>
 
           <a
-            href='https://github.com/guilhermemm-dev/nextjs13-dashboard'
+            href='https://github.com/gmartins-dev/nextjs13-dashboard'
             target='_blank'
             rel='noreferrer'
           >

@@ -42,14 +42,14 @@ const etickets = () => {
             />
           </div>
           <a
-            href='https://github.com/guilhermemm-dev/react-mblabs'
+            href='https://github.com/gmartins-dev/react-mblabs'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://github.com/guilhermemm-dev/react-mblabs'
+            href='https://github.com/gmartins-dev/react-mblabs'
             target='_blank'
             rel='noreferrer'
           >

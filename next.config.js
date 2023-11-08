@@ -17,12 +17,12 @@ const nextConfig = {
       },
       {
         source: '/gh',
-        destination: 'https://github.com/guilhermemm-dev',
+        destination: 'https://github.com/gmartins-dev',
         permanent: false,
       },
       {
         source: '/linkedin',
-        destination: 'https://www.linkedin.com/in/guilhermemm-dev/',
+        destination: 'https://www.linkedin.com/in/gmartins-dev/',
         permanent: false,
       },
       {

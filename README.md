@@ -13,7 +13,7 @@
 
 </br>
 
-<img width="1406" height="auto" alt="demo" src="https://guilhermemm.dev/_next/image?url=%2Fassets%2Fprojects%2Fdemo-portfolio1.png&w=1920&q=75">
+<img width="1406" height="auto" alt="demo" src="https://gmartins.dev/_next/image?url=%2Fassets%2Fprojects%2Fdemo-portfolio1.png&w=1920&q=75">
 
 
 
@@ -21,5 +21,3 @@
 
 - [Next.js](https://nextjs.org)
 - [Tailwind CSS](https://tailwindcss.com)
-
-

@@ -82,7 +82,7 @@ const Navbar = () => {
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <a
-                href='https://guilhermemm.dev/cv'
+                href='https://gmartins.dev/cv'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -162,7 +162,7 @@ const Navbar = () => {
                 </li>
               </Link>
               <a
-                href='https://guilhermemm.dev/cv'
+                href='https://gmartins.dev/cv'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -182,7 +182,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/guilhermemm-dev/'
+                  href='https://www.linkedin.com/in/gmartins-dev/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -191,7 +191,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/guilhermemm-dev'
+                  href='https://github.com/gmartins-dev'
                   target='_blank'
                   rel='noreferrer'
                 >

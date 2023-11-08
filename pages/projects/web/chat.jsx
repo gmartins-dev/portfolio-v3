@@ -59,7 +59,7 @@ const Chat = () => {
           </div>
 
           <a
-            href='https://github.com/guilhermemm-dev/react-chat-app'
+            href='https://github.com/gmartins-dev/react-chat-app'
             target='_blank'
             rel='noreferrer'
           >

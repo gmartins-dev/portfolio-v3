@@ -45,7 +45,7 @@ const Gallery = () => {
           </div>
 
           <a
-            href='https://github.com/guilhermemm-dev/nextjs-gallery'
+            href='https://github.com/gmartins-dev/nextjs-gallery'
             target='_blank'
             rel='noreferrer'
           >
