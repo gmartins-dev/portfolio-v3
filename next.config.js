@@ -12,7 +12,7 @@ const nextConfig = {
       {
         source: '/cv-ptbr',
         destination:
-          'https://docs.google.com/document/d/1Wo-lHkdGAfOimdq0Bd0Lep75mmfgxWKn0OmNCRv2nag',
+          'https://drive.google.com/file/d/18N4Y0UGHHLFYUJ_6qEsAl0TfwWjXQESr',
         permanent: false,
       },
       {
