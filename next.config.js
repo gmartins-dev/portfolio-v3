@@ -32,7 +32,7 @@ const nextConfig = {
       },
       {
         source: '/links',
-        destination: 'https://gmartins-links.vercel.app',
+        destination: 'https://gmartins-links.vercel.app/',
         permanent: false,
       },
     ]
