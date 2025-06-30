@@ -10,9 +10,9 @@ const nextConfig = {
         permanent: false,
       },
       {
-        source: '/cv-ptbr',
+        source: '/cv-br',
         destination:
-          'https://drive.google.com/file/d/18N4Y0UGHHLFYUJ_6qEsAl0TfwWjXQESr',
+          'https://drive.google.com/file/d/1hYqF8R85qGP5qT5kWuC4n2XmVFkO7soU',
         permanent: false,
       },
       {
