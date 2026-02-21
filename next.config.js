@@ -6,13 +6,13 @@ const nextConfig = {
       {
         source: '/cv',
         destination:
-          'https://drive.google.com/file/d/1eOT6ep4JS4ZrLauSJTNyEn_8sOZdpd1k',
+          'https://drive.google.com/file/d/1q3j9AXMy7Uaq_SMzFQxldvMVcZuYCWX9/view',
         permanent: false,
       },
       {
         source: '/cv-br',
         destination:
-          'https://drive.google.com/file/d/1hYqF8R85qGP5qT5kWuC4n2XmVFkO7soU',
+          'https://drive.google.com/file/d/1O1hBXo_tH8KAzUiInMMwvp_wUpMvEU_Z/view',
         permanent: false,
       },
       {
