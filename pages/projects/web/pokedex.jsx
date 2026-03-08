@@ -14,8 +14,8 @@ const Pokedex = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={pokedexDesktop1}
           alt='/'
         />
@@ -38,8 +38,8 @@ const Pokedex = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={pokedexDesktop1}
             />
           </div>
@@ -47,8 +47,8 @@ const Pokedex = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={pokedexDesktop2}
             />
           </div>
@@ -56,7 +56,7 @@ const Pokedex = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              width='600'
+              width={600}
               src={pokedexMobile1}
             />
           </div>
@@ -64,7 +64,7 @@ const Pokedex = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              width='600'
+              width={600}
               src={pokedexMobile2}
             />
           </div>
@@ -91,8 +91,8 @@ const Pokedex = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='NextJs'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-next.svg'
                 />
                 &nbsp;NextJs
@@ -100,8 +100,8 @@ const Pokedex = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React Native'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React
@@ -109,8 +109,8 @@ const Pokedex = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -118,8 +118,8 @@ const Pokedex = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Tailwind'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-tailwind.svg'
                 />
                 &nbsp;Tailwind
@@ -127,8 +127,8 @@ const Pokedex = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Tailwind'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-chartjs.svg'
                 />
                 &nbsp;ChartJs

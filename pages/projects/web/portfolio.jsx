@@ -11,8 +11,8 @@ const portfolio = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={coverPortfolio}
           alt='/'
         />
@@ -32,8 +32,8 @@ const portfolio = () => {
               <Image
                 className='rounded '
                 alt='Portfolio Demo1'
-                height='600'
-                width='800'
+                height={600}
+                width={800}
                 src='/assets/projects/demo-portfolio1.png'
               />
             </div>
@@ -42,8 +42,8 @@ const portfolio = () => {
               <Image
                 className='rounded '
                 alt='Portfolio Demo2'
-                height='1200'
-                width='600'
+                height={1200}
+                width={600}
                 src='/assets/projects/demo-portfolio2.png'
                 background-color='white'
               />
@@ -67,8 +67,8 @@ const portfolio = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='NextJs'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-next.svg'
                 />
                 &nbsp;NextJs
@@ -76,8 +76,8 @@ const portfolio = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React Native'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React
@@ -85,8 +85,8 @@ const portfolio = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -94,8 +94,8 @@ const portfolio = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Tailwind'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-tailwind.svg'
                 />
                 &nbsp;Tailwind

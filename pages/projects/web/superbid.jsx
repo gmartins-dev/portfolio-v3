@@ -12,8 +12,8 @@ const superbid = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={coverSuperbid}
           alt='/'
         />
@@ -35,8 +35,8 @@ const superbid = () => {
             <Image
               className='rounded '
               alt='Superbid Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={coverSuperbid}
             />
           </div>
@@ -62,8 +62,8 @@ const superbid = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React
@@ -71,8 +71,8 @@ const superbid = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -80,8 +80,8 @@ const superbid = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Styled-Components'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-styledcomponents.png'
                 />
                 &nbsp;Styled-Components

@@ -12,8 +12,8 @@ const etickets = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={coverEtickets}
           alt='/'
         />
@@ -36,8 +36,8 @@ const etickets = () => {
             <Image
               className='rounded '
               alt='Etickets Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={coverEtickets}
             />
           </div>
@@ -63,8 +63,8 @@ const etickets = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React Native'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React
@@ -72,8 +72,8 @@ const etickets = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='TypeScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-typescript.svg'
                 />
                 &nbsp;TypeScript
@@ -81,8 +81,8 @@ const etickets = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -90,8 +90,8 @@ const etickets = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='MaterialUI'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-materialui.png'
                 />
                 &nbsp;MaterialUI

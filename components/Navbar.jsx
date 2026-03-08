@@ -56,15 +56,13 @@ const Navbar = () => {
     >
       <div className='flex items-center justify-between w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-          <a>
-            <Image
-              src={NavLogo}
-              alt='/'
-              width='300'
-              height='250'
-              className='cursor-pointer'
-            />
-          </a>
+          <Image
+            src={NavLogo}
+            alt='Guilherme Martins logo'
+            width={300}
+            height={250}
+            className='cursor-pointer'
+          />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -122,9 +120,12 @@ const Navbar = () => {
           <div>
             <div className='flex items-center justify-between w-full'>
               <Link href='/'>
-                <a>
-                  <Image src={NavLogo} width='300' height='250' alt='/' />
-                </a>
+                <Image
+                  src={NavLogo}
+                  width={300}
+                  height={250}
+                  alt='Guilherme Martins logo'
+                />
               </Link>
               <div
                 onClick={handleNav}

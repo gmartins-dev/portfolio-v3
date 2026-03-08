@@ -13,8 +13,8 @@ const Chat = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={coverChat}
           alt='/'
         />
@@ -35,8 +35,8 @@ const Chat = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={coverChat}
             />
           </div>
@@ -44,8 +44,8 @@ const Chat = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={desktopChat}
             />
           </div>
@@ -53,7 +53,7 @@ const Chat = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              width='800'
+              width={800}
               src={mobileChat}
             />
           </div>
@@ -80,8 +80,8 @@ const Chat = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React Native'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React
@@ -89,8 +89,8 @@ const Chat = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -98,8 +98,8 @@ const Chat = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Tailwind'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-tailwind.svg'
                 />
                 &nbsp;Tailwind
@@ -107,8 +107,8 @@ const Chat = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Firebase'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-firebase.svg'
                 />
                 &nbsp;Firebase

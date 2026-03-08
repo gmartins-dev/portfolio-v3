@@ -11,8 +11,8 @@ const Ihungry = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={coverIhungry}
           alt='/'
         />
@@ -35,15 +35,15 @@ const Ihungry = () => {
             <Image
               className='rounded '
               alt='Ihungry Demo1'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src='/assets/projects/demo-ihungry1.jpeg'
             />
             <Image
               className='rounded '
               alt='Ihungry Demo2'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src='/assets/projects/demo-ihungry2.jpeg'
             />
           </div>
@@ -70,8 +70,8 @@ const Ihungry = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='NextJs'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-next.svg'
                 />
                 &nbsp;NextJs
@@ -79,8 +79,8 @@ const Ihungry = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React Native'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React
@@ -88,8 +88,8 @@ const Ihungry = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='TypeScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-typescript.svg'
                 />
                 &nbsp;TypeScript
@@ -97,8 +97,8 @@ const Ihungry = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -106,8 +106,8 @@ const Ihungry = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Tailwind'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-tailwind.svg'
                 />
                 &nbsp;Tailwind

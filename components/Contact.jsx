@@ -23,7 +23,7 @@ const Contact = () => {
                 <Image
                   className='duration-300 ease-in rounded-xl hover:scale-105'
                   src={ContactImg}
-                  alt='/'
+                  alt='Guilherme Martins profile'
                 />
               </div>
               <div>
@@ -136,14 +136,9 @@ const Contact = () => {
         </div>
         <div className='flex justify-center py-12'>
           <Link href='/'>
-            <a>
-              <div className='rounded-full shadow-lg shadow-[#005687] p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <HiOutlineChevronDoubleUp
-                  className='text-[#2A7AE2]'
-                  size={30}
-                />
-              </div>
-            </a>
+            <div className='rounded-full shadow-lg shadow-[#005687] p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <HiOutlineChevronDoubleUp className='text-[#2A7AE2]' size={30} />
+            </div>
           </Link>
         </div>
       </div>

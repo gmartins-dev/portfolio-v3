@@ -12,8 +12,8 @@ const fwc = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={coverFwc}
           alt='/'
         />
@@ -41,8 +41,8 @@ const fwc = () => {
             <Image
               className='rounded '
               alt='Fwc Demo'
-              height='1200'
-              width='800'
+              height={1200}
+              width={800}
               src='/assets/projects/demo-fwc.png'
             />
           </div>
@@ -69,8 +69,8 @@ const fwc = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='NextJs'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-next.svg'
                 />
                 &nbsp;NextJs
@@ -78,8 +78,8 @@ const fwc = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React Native'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React Native
@@ -87,8 +87,8 @@ const fwc = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='TypeScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-typescript.svg'
                 />
                 &nbsp;TypeScript
@@ -96,8 +96,8 @@ const fwc = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -105,8 +105,8 @@ const fwc = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Expo Go'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-expogo.svg'
                 />
                 &nbsp;Expo Go
@@ -114,8 +114,8 @@ const fwc = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Tailwind'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-tailwind.svg'
                 />
                 &nbsp;Tailwind

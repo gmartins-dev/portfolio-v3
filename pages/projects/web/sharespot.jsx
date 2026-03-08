@@ -12,8 +12,8 @@ const sharespot = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={coverShareSpot}
           alt='/'
         />
@@ -38,8 +38,8 @@ const sharespot = () => {
             <Image
               className='rounded '
               alt='ShareSpot Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src='/assets/projects/cover-sharespot.png'
             />
           </div>
@@ -66,8 +66,8 @@ const sharespot = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='NextJs'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-next.svg'
                 />
                 &nbsp;NextJs
@@ -75,8 +75,8 @@ const sharespot = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React
@@ -84,8 +84,8 @@ const sharespot = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -93,8 +93,8 @@ const sharespot = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Styled-Components'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-styledcomponents.png'
                 />
                 &nbsp;Styled-Components
@@ -102,8 +102,8 @@ const sharespot = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='NodeJS'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-nodejs.svg'
                 />
                 &nbsp;NodeJS
@@ -111,8 +111,8 @@ const sharespot = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='MongoDB'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-mongodb.svg'
                 />
                 &nbsp;MongoDB

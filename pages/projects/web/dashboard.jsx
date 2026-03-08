@@ -13,8 +13,8 @@ const Dashboard = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={demoDashboard}
           alt='/'
         />
@@ -36,8 +36,8 @@ const Dashboard = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={demoDashboard}
             />
           </div>
@@ -45,8 +45,8 @@ const Dashboard = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={demoDashboard2}
             />
           </div>
@@ -54,8 +54,8 @@ const Dashboard = () => {
             <Image
               className='rounded '
               alt='Gallery Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src={demoDashboard3}
             />
           </div>
@@ -82,8 +82,8 @@ const Dashboard = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='NextJs'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-next.svg'
                 />
                 &nbsp;NextJs
@@ -91,8 +91,8 @@ const Dashboard = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React Native'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React
@@ -100,8 +100,8 @@ const Dashboard = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -109,8 +109,8 @@ const Dashboard = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Tailwind'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-tailwind.svg'
                 />
                 &nbsp;Tailwind
@@ -118,8 +118,8 @@ const Dashboard = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Tailwind'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-chartjs.svg'
                 />
                 &nbsp;ChartJs

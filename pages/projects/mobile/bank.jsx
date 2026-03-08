@@ -12,8 +12,8 @@ const bank = () => {
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
+          fill
+          style={{ objectFit: 'cover' }}
           src={coverBank}
           alt='/'
         />
@@ -35,8 +35,8 @@ const bank = () => {
             <Image
               className='rounded '
               alt='Bank Demo'
-              height='600'
-              width='800'
+              height={600}
+              width={800}
               src='/assets/projects/demo-bank.gif'
             />
           </div>
@@ -62,8 +62,8 @@ const bank = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='React Native'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-react.svg'
                 />
                 &nbsp;React Native
@@ -71,8 +71,8 @@ const bank = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='JavaScript'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-javascript.svg'
                 />
                 &nbsp;JavaScript
@@ -80,8 +80,8 @@ const bank = () => {
               <div className='flex items-center py-2'>
                 <Image
                   alt='Expo Go'
-                  height='20'
-                  width='20'
+                  height={20}
+                  width={20}
                   src='/assets/icons/icon-expogo.svg'
                 />
                 &nbsp;Expo Go
